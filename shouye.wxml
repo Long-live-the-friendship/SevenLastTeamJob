@@ -1,0 +1,39 @@
+<!--pages/shouye/shouye.wxml-->
+<swiper style="height:400rpx" indicator-dots="{{true}}" autoplay="{{true}}" interval="{{2000}}" duration="{{500}}" circular="{{true}}">
+  <swiper-item>
+    <image src="/images/denglu1.png"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="/images/denglu2.jpg"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="/images/denglu4.jpg"></image>
+  </swiper-item>
+</swiper>
+<!-- <image class="img1" src="/icon/打卡.jpg"></image> -->
+<view class="menu">
+   <view class="item">
+     <image class="picture" src='/images/daka.jpg'></image>
+     <button bindtap="minebook">
+      <text>打卡</text>
+     </button>
+   </view>
+   <view class="item">
+     <image class="picture" src='/images/paihangbang.jpg'></image>
+     <button bindtap="rank">
+      <text>排行榜</text>
+     </button>
+   </view>
+  </view>
+  <view class="menu">
+   <view class="item">
+    <image class="picture" src='/images/dakajilu.png'></image>
+    <button></button>
+    <text>打卡记录</text>
+   </view>
+   <view class="item">
+    <image class="picture" src='/images/jilu.png'></image>
+    <button></button>
+    <text>个人记录</text>
+   </view>
+</view>
